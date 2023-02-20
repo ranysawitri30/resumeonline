@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  padding: 8px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 10x;
+   background-image: url("https://as2.ftcdn.net/v2/jpg/01/16/93/93/1000_F_116939331_vKhR9OYwGRnWBOp8HvkdX2Exi5TanFtZ.jpg"); 
+}
+.bg-image {
+  /* The image used */
+  
+  
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  /* Full height */
+  height: 100%; 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.grid {
+  display: grid;
+  grid-template-columns:auto auto auto;
+  grid-template-rows:auto auto auto;
+  grid-gap: 1em 1em;
+  grid-auto-flow: row dense;
+}
+
+.item {
+  background: rgba(30, 0, 0, 0.1);
+  padding: 2em;
+   height: auto;
+    float: left;
+}
+.width {
+  background: rgba(30, 0, 0, 0.1);S
+  padding: 2em;
+   height: auto;
+   grid-column: auto / span 3;
+    float: left;
+}
+
+.large {
+  background: rgba(30, 0, 0, 0.25);
+  border-style: hidden ;
+  padding: 0;
+  margin: 0;
+   border-radius: 0.25em;
+  grid-row: auto / span 2;
+   height: auto;
+}
+.verysmall{
+  background: rgba(30, 0, 0, 0.25);
+
+  height: 100px;
+}
+.exception{
+ background: rgba(0, 0, 0, 0.1);
+  grid-row: auto / span 2;
+ height: auto;
+  
+}
+.another{
+  background: rgba(0, 0, 0, 0.1);
+  grid-row: auto / span 3;
+ height: auto;
+ width: auto;
+}
+.left {
+  border-left: 6px solid red;
+}
+.right {
+  border-right: 6px solid red;
+}
+h1 {
+  
+  text-transform: uppercase;
+  color: #4CAF50;
+}
+
+p {
+  text-indent: 50px;
+  letter-spacing: 3px;
+}
+
+img {
+  width: 200px;
+  height: auto;
+  
+}
+.round3 {
+  width: fit-content;
+block-size: fit-content;
+  border-radius: 12px;
+  padding: 1px;
+  background-color:lightblue;
+  box-sizing:border-box;
+}
+.newspaper {
+  column-count: 2;
+  column-gap: 1px;
+}
+div.newspaper{
+  line-height: normal;
+}
+
+</style>
+</head
+<body>
+<div class="bg-image"></div>
+<div class="grid">
+
+  <div class="exception  right">
+
+    <h1>Skills</h1>
+<p> <span class="round3">CSS</span> <span class="round3">HTML</span> <span class="round3">MICROSOFT WORK</span> <span class="round3">HTML</span>  <span class="round3">CREATIVE CONCEPTING</span> <span class="round3">EXCEL</span>  <span class="round3">ETAP</span>  <span class="round3">POWER POINT</span>  </p>
+<div class="newspaper">
+  <h1>Skills</h1>
+<h3>Creative</h3>
+<h3>Teamwork/Presentation</h3>
+<h3>Flexibility</h3>
+<h3>Time-Management</h3> 
+</div>
+    </div>
+  <div class="verysmall"><h1>Curiculum Vitae</h1></div>
+  <div class="another left">
+     <h1>About Me</h1>
+  <p>Hello, my name is Rany Sawitri or Rany for short</p>
+   <p> I'm a person that graduated as an electrical engineer, but have a deep interest in work in creativity, and public relation.</p> 
+ <p>My dream is work in any industry, that can develop my self to be more advance person, i passionate about what i did, and i always wanna challenge myself to look for more opportunity to learn and to be a useful and valuable person for the people around me </p> 
+  </div>
+  <div class="item large">
+    
+
+<p style="text-align:justify;"><img src="photo.gif" style="float:left;" />
+<h3>25th</h3>
+
+<h3>087729001052</h3>
+
+<h3>rany.sawitri@gmail.com</h3>
+
+<h3>Ciputat Timur,Tangerang Selatan</h3>
+</p>
+  </div 
+
+ 
+  </div>
+  <div class="item right ">
+    <div class="newspaper">
+    <h1>Education</h1>
+<h3>Bachelor Degree | 2015-2019</h3>
+<h4>Jenderal Soedirman University|Electrical Engineering 
+|GPA : 3.37 </h4>
+<h3>Master Degree| 2022-On going</h3>
+<h4>Institute Technology of Sepuluh Nopember | Electrical Engineering</h4>
+<h1>Languange</h1>
+      <h3>English | Toefl 530</h3>
+</div>
+  
+  </div>
+  <div class="width right ">
+    <div class="newspaper">
+
+    <h1>Achievement</h1>
+<h3>ACHIEVEMENT SCHOLARSHIP 2019-2018,2016-2015 | YPK PT INDONESIA POWER </h3>
+<h1>Organization</h1>
+<h3>STAFF OF COMISSION 3 | DLM OF FACULTY OFENGINEERING UNSOED 2018 </h3>
+<h3>STAFF OF STUDENT RESOURCE DEVELOPMENT DIVISION | HMTE UNSOED 2017 </h3>
+
+
+</div>
+  
+  </div>
+   
+
+</div>
+</div>
+
+</body>
+</html>
